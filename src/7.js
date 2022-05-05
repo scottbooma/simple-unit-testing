@@ -1,8 +1,5 @@
 function getCircleArea(radius) {
-  var pi = Math.PI;
-  var rSquared = Math.pow(radius, 2);
-
-  return pi * rSquared;
+  return Math.PI * radius ** 2;
 }
 
 module.exports = getCircleArea
