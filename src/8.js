@@ -1,7 +1,7 @@
 function greetPeople(people) {
-  var greeting = "Hello ";
+  let greeting = "Hello ";
 
-  people.forEach(function(person) {
+  people.forEach(function (person) {
     greeting = greeting + person;
   });
 
